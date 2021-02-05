@@ -1,3 +1,4 @@
+// insert admin automatically
 function insertAdmins() {
   var users = JSON.parse(localStorage.getItem("users") || "[]");
   var admin1 = {
